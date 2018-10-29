@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Data Dashboard</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"/>
+  </head>
+  <body>
+    <aside>
+        <div class="profile">
+          <img src="assets/images/profile-image.png" />
+          <span class="name"> Vanessa </span>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#" id="home"> Visão Geral </a></li>
+            <li class="compare"><a href="#"> Comparar </a>
+            <br />
+            <select class="dropRegion" id='compare-region1' onchange="loadClass('compare-region1','compare-class1')"></select>
+            <select class="dropClass" id='compare-class1'></select>
+            <select class="dropRegion"  id='compare-region2'  onchange="loadClass('compare-region2','compare-class2')"></select>
+            <select class="dropClass"  id='compare-class2'></select>
+            </li>
+            <li><a href="#" id='show-alunas'> Alunas </a></li>
+            <!-- <li><a href="#"> Lembretes </a></li> -->
+          </ul>
+        </nav>
+      </aside>
+    <div class="content">
+        <div class="top-bar">
+            <span class="logo"> <img src="assets/images/logo-laboratoria.svg" alt="Logo Laboratória" /></span> 
+            <span class="sede">Bem vinda! Vendo dados sobre: 
+              <select id='drop-region'  class="dropRegion" onchange="loadClass('drop-region','drop-class')"></select>
+              <select id='drop-class'  class="dropClass" ></select>
+            </span>
+            <span id="date"></span>
+        </div>
+      <main>
+      <span class="message"> Olá! Selecione a sede e turma no menu acima para ver os dados.</span> 
+      </main>
+   </div>
+
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="./js/data.js"></script>
+  <script src="./js/app.js"></script>
+  </body>
+</html>
