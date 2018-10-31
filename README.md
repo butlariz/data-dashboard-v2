@@ -1,25 +1,8 @@
 # Data Dashboard
+Um dos problemas que a Laboratoria enfrenta, é não ter uma plataforma onde pode ser organizado todos os dados sobre as alunas, a equipe e outros dados do bootcamp. Como solução, desenvolvemos o Data Dashboard, uma plataforma onde através de gráficos, é mostrado dados e contas feitas a partir de um banco de dados que nos foi passado.
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Producto final_
+## Versão 1.0
+O data dashboard foi um projeto em dupla, feito em javascript puro na sua primeira versão, com o uso do google charts para os gráficos
 
-***
-
-## Flujo de trabajo
-
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
-
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
-
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/freelancer.git
-   ```
-
-3. Cuando hayas terminado tu producto, envía un Pull Request a este repositorio
-   (puedes solicitar apoyo de tus profes para este paso).
-
-> Nota: No olvides que es una buena práctica describir tu proyecto en este
-> archivo `README.md` y también desplegar tu web a Github Pages :smiley:.
+## Versão 2.0 (em andamento)
+Refatorar o código com jquery, arredondar números e consertar erros.
